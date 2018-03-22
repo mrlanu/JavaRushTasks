@@ -9,6 +9,7 @@ import java.io.*;
 public class Solution {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
+
         boolean yes = false;
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -28,4 +29,5 @@ public class Solution {
         else System.out.println("Треугольник не существует.");
 
     }
+
 }

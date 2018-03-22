@@ -37,7 +37,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        HashMap<String, Boolean> phones = new HashMap<>();
+        HashMap<com.javarush.task.task20.task2010.Solution.String, Boolean> phones = new HashMap<>();
         phones.put("+380501234567", true);
         phones.put("-38(050)1234567", true);
         phones.put("+38050123-45-67", true);
